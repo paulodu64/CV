@@ -1,8 +1,3 @@
-.photo{
-	float:right;
-	padding-top:0px;
-	
-}
 
 .page{
 	
@@ -16,11 +11,12 @@
 	
 }
 .info{
-	float.left;
+	float:left;
 }
 
 .photo{
 	float:right;
+	
 }
 .section{
 	margin-bottom:70px;
