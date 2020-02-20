@@ -1,0 +1,63 @@
+#container{
+	background: gold;
+	font-family:arial;
+	display: grid;
+	grid-row-gap:5%;
+	grid-template-rows : minmax(50px,20%)minmax(50px,10%) auto;
+	justify-content: center;
+	width:100vw;
+	height:100vh;
+	justify-items: center;
+}
+
+#question{ /*id question*/
+	grid-row: 1/2;
+	align-self:end;
+	text-align: center;
+	margin: 1% 5% 1% 5%;
+	font-size: 5vh;
+}
+
+#reponse{
+	height: 10vh;
+	width: 50vw;
+	text-align:center;
+	grid-row: 2/3;
+	border-radius: 2vh;
+	font-size:6vh;
+	text-transform: lowercase;/*Mais cest juste de l'affichage*/
+	transition-duration:0.7s;
+}
+
+#boutonValider{
+	border-radius: 10px;
+	background-color:goldenrod;
+	height:10vh;
+	
+}
+
+#juste{
+	color: darkgreen;
+}
+#faux{
+	color:red;
+}
+#score{
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+	grid-row: 4/5;
+	font-size: 8vh;
+}
+
+#solution{
+	color:darkgreen;
+	font-style: italic
+}
+
+#niveau{
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-image: -webkit-linear-gradient(left, red, orange,green, blue, indigo, violet);
+	font-size: 6vh;
+}
